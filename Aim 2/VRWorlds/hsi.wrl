@@ -1,0 +1,3424 @@
+#VRML V2.0 utf8
+
+DEF Background Transform {
+  scale 0.4575 0.4575 0.4575
+  children [
+    DEF Graphics Transform {
+      children DEF plane Transform {
+        children Shape {
+          appearance Appearance {
+            texture ImageTexture {
+              url "horizontal_situation_display.png" 
+            }
+            material Material {
+              diffuseColor 1 1 1
+            }
+          }
+          geometry IndexedFaceSet {
+            solid FALSE
+            normalIndex [
+              0, 0, 0, 0, -1 
+            ]
+            coordIndex [
+              0, 1, 2, 3, -1 
+            ]
+            normal Normal {
+              vector 0 0 1
+            }
+            coord DEF Plane_Square_IFS_Coord Coordinate {
+              point [
+                -10.0781 10.0781 0,
+                -10.0781 -10.078 0,
+                10.0781 -10.078 0,
+                10.0781 10.0781 0 
+              ]
+            }
+          }
+        }
+      }
+    }
+    DEF Border_L Transform {
+      translation -19.5 0 -0.0001
+      children DEF Plane_Square_0005 Transform {
+        children DEF plane_0005 Transform {
+          children Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 0 0 0
+              }
+            }
+            geometry IndexedFaceSet {
+              solid FALSE
+              normalIndex [
+                0, 0, 0, 0, -1 
+              ]
+              coordIndex [
+                0, 1, 2, 3, -1 
+              ]
+              normal Normal {
+                vector 0 0 1
+              }
+              coord DEF Plane_Square_IFS_Coord_0005 Coordinate {
+                point [
+                  -10.0781 10.0781 0,
+                  -10.0781 -10.078 0,
+                  10.0781 -10.078 0,
+                  10.0781 10.0781 0 
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+    DEF Border_R Transform {
+      translation 19.5 0 0
+      children DEF Plane_Square_0006 Transform {
+        children DEF plane_0006 Transform {
+          children Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 0 0 0
+              }
+            }
+            geometry IndexedFaceSet {
+              solid FALSE
+              normalIndex [
+                0, 0, 0, 0, -1 
+              ]
+              coordIndex [
+                0, 1, 2, 3, -1 
+              ]
+              normal Normal {
+                vector 0 0 1
+              }
+              coord DEF Plane_Square_IFS_Coord_0006 Coordinate {
+                point [
+                  -10.0781 10.0781 0,
+                  -10.0781 -10.078 0,
+                  10.0781 -10.078 0,
+                  10.0781 10.0781 0 
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+    DEF Far_back Transform {
+      translation 0 0 -0.03
+      children DEF Plane_Square_0007 Transform {
+        children DEF plane_0007 Transform {
+          children Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 0 0 0
+              }
+            }
+            geometry IndexedFaceSet {
+              solid FALSE
+              normalIndex [
+                0, 0, 0, 0, -1 
+              ]
+              coordIndex [
+                0, 1, 2, 3, -1 
+              ]
+              normal Normal {
+                vector 0 0 1
+              }
+              coord DEF Plane_Square_IFS_Coord_0007 Coordinate {
+                point [
+                  -10.0781 10.0781 0,
+                  -10.0781 -10.078 0,
+                  10.0781 -10.078 0,
+                  10.0781 10.0781 0 
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+    DEF Border_T Transform {
+      translation 0 19 -0.0001
+      scale 3 1 1
+      children DEF Plane_Square_0008 Transform {
+        children DEF plane_0018 Transform {
+          children Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 0 0 0
+              }
+            }
+            geometry IndexedFaceSet {
+              solid FALSE
+              normalIndex [
+                0, 0, 0, 0, -1 
+              ]
+              coordIndex [
+                0, 1, 2, 3, -1 
+              ]
+              normal Normal {
+                vector 0 0 1
+              }
+              coord DEF Plane_Square_IFS_Coord_0018 Coordinate {
+                point [
+                  -10.0781 10.0781 0,
+                  -10.0781 -10.078 0,
+                  10.0781 -10.078 0,
+                  10.0781 10.0781 0 
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+    DEF Border_B Transform {
+      translation 0 -19 -0.0001
+      scale 3 1 1
+      children DEF Plane_Square_0009 Transform {
+        children DEF plane_0019 Transform {
+          children Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 0 0 0
+              }
+            }
+            geometry IndexedFaceSet {
+              solid FALSE
+              normalIndex [
+                0, 0, 0, 0, -1 
+              ]
+              coordIndex [
+                0, 1, 2, 3, -1 
+              ]
+              normal Normal {
+                vector 0 0 1
+              }
+              coord DEF Plane_Square_IFS_Coord_0019 Coordinate {
+                point [
+                  -10.0781 10.0781 0,
+                  -10.0781 -10.078 0,
+                  10.0781 -10.078 0,
+                  10.0781 10.0781 0 
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
+DEF Vel_Ball Transform {
+  translation 0 0.4 0.002
+  scale 0.005 0.005 0.005
+  children Transform {
+    children DEF circle_0001 Transform {
+      children Shape {
+        appearance Appearance {
+          material Material {
+            diffuseColor 1 1 0
+          }
+        }
+        geometry IndexedFaceSet {
+          solid FALSE
+          normalIndex [
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1 
+          ]
+          coordIndex [
+            0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, -1 
+          ]
+          normal Normal {
+            vector 0 0 1
+          }
+          coord DEF Circle_IFS_Coord_0001 Coordinate {
+            point [
+              4.23146 -9.10823 0,
+              5.46598 -8.42325 0,
+              6.58652 -7.57748 0,
+              7.57748 -6.58652 0,
+              8.42325 -5.46598 0,
+              9.10823 -4.23145 0,
+              9.61682 -2.89855 0,
+              9.93341 -1.48286 0,
+              10.0424 0 0,
+              9.93341 1.48286 0,
+              9.61682 2.89855 0,
+              9.10823 4.23146 0,
+              8.42325 5.46598 0,
+              7.57748 6.58652 0,
+              6.58652 7.57748 0,
+              5.46598 8.42325 0,
+              4.23145 9.10823 0,
+              2.89855 9.61682 0,
+              1.48286 9.93341 0,
+              0 10.0424 0,
+              -1.48286 9.93341 0,
+              -2.89855 9.61682 0,
+              -4.23146 9.10823 0,
+              -5.46598 8.42325 0,
+              -6.58652 7.57748 0,
+              -7.57748 6.58652 0,
+              -8.42325 5.46598 0,
+              -9.10823 4.23145 0,
+              -9.61682 2.89855 0,
+              -9.93341 1.48286 0,
+              -10.0424 0 0,
+              -9.93341 -1.48286 0,
+              -9.61682 -2.89855 0,
+              -9.10823 -4.23146 0,
+              -8.42325 -5.46598 0,
+              -7.57748 -6.58652 0,
+              -6.58652 -7.57748 0,
+              -5.46598 -8.42325 0,
+              -4.23145 -9.10823 0,
+              -2.89855 -9.61682 0,
+              -1.48286 -9.93341 0,
+              0 -10.0424 0,
+              1.48286 -9.93341 0,
+              2.89855 -9.61682 0 
+            ]
+          }
+        }
+      }
+    }
+  }
+}
+DEF Vel_Vector Transform {
+  translation 0 0.2 0.002
+  scale 0.001 0.02 1
+  children DEF Plane_Square_0001 Transform {
+    children DEF plane_0001 Transform {
+      children Shape {
+        appearance Appearance {
+          material Material {
+            diffuseColor 1 1 0
+          }
+        }
+        geometry IndexedFaceSet {
+          solid FALSE
+          normalIndex [
+            0, 0, 0, 0, -1 
+          ]
+          coordIndex [
+            0, 1, 2, 3, -1 
+          ]
+          normal Normal {
+            vector 0 0 1
+          }
+          coord DEF Plane_Square_IFS_Coord_0001 Coordinate {
+            point [
+              -10.0781 10.0781 0,
+              -10.0781 -10.078 0,
+              10.0781 -10.078 0,
+              10.0781 10.0781 0 
+            ]
+          }
+        }
+      }
+    }
+  }
+}
+DEF Ship Transform {
+  translation 0 0 0.003
+  scale 0.015 0.015 0.015
+  children [
+    DEF Ship_box_0001 Transform {
+      translation 0 9 0
+      scale 1 0.1 1
+      children DEF plane_0008 Transform {
+        children Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 1 1 0
+            }
+          }
+          geometry IndexedFaceSet {
+            solid FALSE
+            normalIndex [
+              0, 0, 0, 0, -1 
+            ]
+            coordIndex [
+              0, 1, 2, 3, -1 
+            ]
+            normal Normal {
+              vector 0 0 1
+            }
+            coord DEF Plane_Square_IFS_Coord_0008 Coordinate {
+              point [
+                -10.0781 10.0781 0,
+                -10.0781 -10.078 0,
+                10.0781 -10.078 0,
+                10.0781 10.0781 0 
+              ]
+            }
+          }
+        }
+      }
+    }
+    DEF Ship_box_0002 Transform {
+      translation 9 0 0
+      scale 0.1 1 1
+      children DEF plane_0009 Transform {
+        children Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 1 1 0
+            }
+          }
+          geometry IndexedFaceSet {
+            solid FALSE
+            normalIndex [
+              0, 0, 0, 0, -1 
+            ]
+            coordIndex [
+              0, 1, 2, 3, -1 
+            ]
+            normal Normal {
+              vector 0 0 1
+            }
+            coord DEF Plane_Square_IFS_Coord_0009 Coordinate {
+              point [
+                -10.0781 10.0781 0,
+                -10.0781 -10.078 0,
+                10.0781 -10.078 0,
+                10.0781 10.0781 0 
+              ]
+            }
+          }
+        }
+      }
+    }
+    DEF Ship_box_0003 Transform {
+      translation 0 -9 0
+      scale 1 0.1 1
+      children DEF plane_0010 Transform {
+        children Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 1 1 0
+            }
+          }
+          geometry IndexedFaceSet {
+            solid FALSE
+            normalIndex [
+              0, 0, 0, 0, -1 
+            ]
+            coordIndex [
+              0, 1, 2, 3, -1 
+            ]
+            normal Normal {
+              vector 0 0 1
+            }
+            coord DEF Plane_Square_IFS_Coord_0010 Coordinate {
+              point [
+                -10.0781 10.0781 0,
+                -10.0781 -10.078 0,
+                10.0781 -10.078 0,
+                10.0781 10.0781 0 
+              ]
+            }
+          }
+        }
+      }
+    }
+    DEF Ship_box_0004 Transform {
+      translation -9 0 0
+      scale 0.1 1 1
+      children DEF plane_0011 Transform {
+        children Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 1 1 0
+            }
+          }
+          geometry IndexedFaceSet {
+            solid FALSE
+            normalIndex [
+              0, 0, 0, 0, -1 
+            ]
+            coordIndex [
+              0, 1, 2, 3, -1 
+            ]
+            normal Normal {
+              vector 0 0 1
+            }
+            coord DEF Plane_Square_IFS_Coord_0011 Coordinate {
+              point [
+                -10.0781 10.0781 0,
+                -10.0781 -10.078 0,
+                10.0781 -10.078 0,
+                10.0781 10.0781 0 
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}
+DEF Guide_Heading_Rot Transform {
+  rotation 0 0 -1 0
+  children DEF Guidance_Heading Transform {
+    translation 0 3.95 0.001
+    scale 0.0175 0.0175 0.0175
+    rotation 0 0 1 3.14159
+    children Transform {
+      children DEF triangle Transform {
+        children Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 1 0 0.8
+            }
+          }
+          geometry IndexedFaceSet {
+            solid FALSE
+            coordIndex [
+              0, 1, 2, -1 
+            ]
+            coord DEF Triangle_IFS_Coord Coordinate {
+              point [
+                -10.0104 -7.44323 -2e-06,
+                10.0104 -7.44323 1e-06,
+                2e-06 9.89527 0 
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
+DEF LP Transform {
+  translation 0 3 -0.1
+  scale 0.015 0.015 0.015
+  children [
+    DEF LP_box_0001 Transform {
+      translation -4.3 5.6 0
+      scale 0.70711 0.1 1
+      rotation 0 0 1 0.785398
+      children DEF plane_0012 Transform {
+        children Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 1 0 0.8
+            }
+          }
+          geometry IndexedFaceSet {
+            solid FALSE
+            normalIndex [
+              0, 0, 0, 0, -1 
+            ]
+            coordIndex [
+              0, 1, 2, 3, -1 
+            ]
+            normal Normal {
+              vector 0 0 1
+            }
+            coord DEF Plane_Square_IFS_Coord_0012 Coordinate {
+              point [
+                -10.0781 10.0781 0,
+                -10.0781 -10.078 0,
+                10.0781 -10.078 0,
+                10.0781 10.0781 0 
+              ]
+            }
+          }
+        }
+      }
+    }
+    DEF LP_box_0002 Transform {
+      translation 0 -9 0
+      scale 1 0.1 1
+      children DEF plane_0013 Transform {
+        children Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 1 0 0.8
+            }
+          }
+          geometry IndexedFaceSet {
+            solid FALSE
+            normalIndex [
+              0, 0, 0, 0, -1 
+            ]
+            coordIndex [
+              0, 1, 2, 3, -1 
+            ]
+            normal Normal {
+              vector 0 0 1
+            }
+            coord DEF Plane_Square_IFS_Coord_0013 Coordinate {
+              point [
+                -10.0781 10.0781 0,
+                -10.0781 -10.078 0,
+                10.0781 -10.078 0,
+                10.0781 10.0781 0 
+              ]
+            }
+          }
+        }
+      }
+    }
+    DEF LP_box_0003 Transform {
+      translation 9 -4 0
+      scale 0.1 0.5 1
+      children DEF plane_0014 Transform {
+        children Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 1 0 0.8
+            }
+          }
+          geometry IndexedFaceSet {
+            solid FALSE
+            normalIndex [
+              0, 0, 0, 0, -1 
+            ]
+            coordIndex [
+              0, 1, 2, 3, -1 
+            ]
+            normal Normal {
+              vector 0 0 1
+            }
+            coord DEF Plane_Square_IFS_Coord_0014 Coordinate {
+              point [
+                -10.0781 10.0781 0,
+                -10.0781 -10.078 0,
+                10.0781 -10.078 0,
+                10.0781 10.0781 0 
+              ]
+            }
+          }
+        }
+      }
+    }
+    DEF LP_box_0004 Transform {
+      translation -9 -4 0
+      scale 0.1 0.5 1
+      children DEF plane_0003 Transform {
+        children Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 1 0 0.8
+            }
+          }
+          geometry IndexedFaceSet {
+            solid FALSE
+            normalIndex [
+              0, 0, 0, 0, -1 
+            ]
+            coordIndex [
+              0, 1, 2, 3, -1 
+            ]
+            normal Normal {
+              vector 0 0 1
+            }
+            coord DEF Plane_Square_IFS_Coord_0003 Coordinate {
+              point [
+                -10.0781 10.0781 0,
+                -10.0781 -10.078 0,
+                10.0781 -10.078 0,
+                10.0781 10.0781 0 
+              ]
+            }
+          }
+        }
+      }
+    }
+    DEF LP_box_0000 Transform {
+      translation 4.3 5.6 0
+      scale 0.70711 0.1 1
+      rotation 0 0 1 -0.7854
+      children DEF plane_0015 Transform {
+        children Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 1 0 0.8
+            }
+          }
+          geometry IndexedFaceSet {
+            solid FALSE
+            normalIndex [
+              0, 0, 0, 0, -1 
+            ]
+            coordIndex [
+              0, 1, 2, 3, -1 
+            ]
+            normal Normal {
+              vector 0 0 1
+            }
+            coord DEF Plane_Square_IFS_Coord_0015 Coordinate {
+              point [
+                -10.0781 10.0781 0,
+                -10.0781 -10.078 0,
+                10.0781 -10.078 0,
+                10.0781 10.0781 0 
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}
+DEF Guidance_Velocity Transform {
+  translation 0 2 0
+  scale 0.0075 0.0075 0.0075
+  children Transform {
+    children DEF circle Transform {
+      children Shape {
+        appearance Appearance {
+          material Material {
+            diffuseColor 1 0 0.8
+          }
+        }
+        geometry IndexedFaceSet {
+          solid FALSE
+          normalIndex [
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1 
+          ]
+          coordIndex [
+            0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, -1 
+          ]
+          normal Normal {
+            vector 0 0 1
+          }
+          coord DEF Circle_IFS_Coord Coordinate {
+            point [
+              4.23146 -9.10823 0,
+              5.46598 -8.42325 0,
+              6.58652 -7.57748 0,
+              7.57748 -6.58652 0,
+              8.42325 -5.46598 0,
+              9.10823 -4.23145 0,
+              9.61682 -2.89855 0,
+              9.93341 -1.48286 0,
+              10.0424 0 0,
+              9.93341 1.48286 0,
+              9.61682 2.89855 0,
+              9.10823 4.23146 0,
+              8.42325 5.46598 0,
+              7.57748 6.58652 0,
+              6.58652 7.57748 0,
+              5.46598 8.42325 0,
+              4.23145 9.10823 0,
+              2.89855 9.61682 0,
+              1.48286 9.93341 0,
+              0 10.0424 0,
+              -1.48286 9.93341 0,
+              -2.89855 9.61682 0,
+              -4.23146 9.10823 0,
+              -5.46598 8.42325 0,
+              -6.58652 7.57748 0,
+              -7.57748 6.58652 0,
+              -8.42325 5.46598 0,
+              -9.10823 4.23145 0,
+              -9.61682 2.89855 0,
+              -9.93341 1.48286 0,
+              -10.0424 0 0,
+              -9.93341 -1.48286 0,
+              -9.61682 -2.89855 0,
+              -9.10823 -4.23146 0,
+              -8.42325 -5.46598 0,
+              -7.57748 -6.58652 0,
+              -6.58652 -7.57748 0,
+              -5.46598 -8.42325 0,
+              -4.23145 -9.10823 0,
+              -2.89855 -9.61682 0,
+              -1.48286 -9.93341 0,
+              0 -10.0424 0,
+              1.48286 -9.93341 0,
+              2.89855 -9.61682 0 
+            ]
+          }
+        }
+      }
+    }
+  }
+}
+DEF Ship_Heading Transform {
+  translation 0 3.5 0.01
+  scale 0.0175 0.0175 0.0175
+  children Transform {
+    children DEF triangle_0001 Transform {
+      children Shape {
+        appearance Appearance {
+          material Material {
+            diffuseColor 1 1 0
+          }
+        }
+        geometry IndexedFaceSet {
+          solid FALSE
+          coordIndex [
+            0, 1, 2, -1 
+          ]
+          coord DEF Triangle_IFS_Coord_0001 Coordinate {
+            point [
+              -10.0104 -7.44323 -2e-06,
+              10.0104 -7.44323 1e-06,
+              2e-06 9.89527 0 
+            ]
+          }
+        }
+      }
+    }
+  }
+}
+DEF Landing_Point Transform {
+  translation 0 0 -0.01
+  scale 2.25 2.25 2.25
+  children DEF LP_Box Transform {
+    translation 0 0 0.001
+    scale 0.025 0.025 0.025
+    children [
+      DEF Ship_box_0009 Transform {
+        translation 0 4.5 0
+        scale 0.4525 0.015 1
+        children DEF plane_0002 Transform {
+          children Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 1 0 0.8
+              }
+            }
+            geometry IndexedFaceSet {
+              solid FALSE
+              normalIndex [
+                0, 0, 0, 0, -1 
+              ]
+              coordIndex [
+                0, 1, 2, 3, -1 
+              ]
+              normal Normal {
+                vector 0 0 1
+              }
+              coord DEF Plane_Square_IFS_Coord_0002 Coordinate {
+                point [
+                  -10.0781 10.0781 0,
+                  -10.0781 -10.078 0,
+                  10.0781 -10.078 0,
+                  10.0781 10.0781 0 
+                ]
+              }
+            }
+          }
+        }
+      }
+      DEF Ship_box_0010 Transform {
+        translation 4.5 0 0
+        scale 0.015 0.4525 1
+        children DEF plane_0024 Transform {
+          children Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 1 0 0.8
+              }
+            }
+            geometry IndexedFaceSet {
+              solid FALSE
+              normalIndex [
+                0, 0, 0, 0, -1 
+              ]
+              coordIndex [
+                0, 1, 2, 3, -1 
+              ]
+              normal Normal {
+                vector 0 0 1
+              }
+              coord DEF Plane_Square_IFS_Coord_0024 Coordinate {
+                point [
+                  -10.0781 10.0781 0,
+                  -10.0781 -10.078 0,
+                  10.0781 -10.078 0,
+                  10.0781 10.0781 0 
+                ]
+              }
+            }
+          }
+        }
+      }
+      DEF Ship_box_0011 Transform {
+        translation 0 -4.5 0
+        scale 0.4525 0.015 1
+        children DEF plane_0025 Transform {
+          children Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 1 0 0.8
+              }
+            }
+            geometry IndexedFaceSet {
+              solid FALSE
+              normalIndex [
+                0, 0, 0, 0, -1 
+              ]
+              coordIndex [
+                0, 1, 2, 3, -1 
+              ]
+              normal Normal {
+                vector 0 0 1
+              }
+              coord DEF Plane_Square_IFS_Coord_0025 Coordinate {
+                point [
+                  -10.0781 10.0781 0,
+                  -10.0781 -10.078 0,
+                  10.0781 -10.078 0,
+                  10.0781 10.0781 0 
+                ]
+              }
+            }
+          }
+        }
+      }
+      DEF Ship_box_0012 Transform {
+        translation -4.5 0 0
+        scale 0.015 0.4525 1
+        children DEF plane_0026 Transform {
+          children Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 1 0 0.8
+              }
+            }
+            geometry IndexedFaceSet {
+              solid FALSE
+              normalIndex [
+                0, 0, 0, 0, -1 
+              ]
+              coordIndex [
+                0, 1, 2, 3, -1 
+              ]
+              normal Normal {
+                vector 0 0 1
+              }
+              coord DEF Plane_Square_IFS_Coord_0026 Coordinate {
+                point [
+                  -10.0781 10.0781 0,
+                  -10.0781 -10.078 0,
+                  10.0781 -10.078 0,
+                  10.0781 10.0781 0 
+                ]
+              }
+            }
+          }
+        }
+      }
+      DEF Cross_hair_0001 Transform {
+        scale 0.015 0.113125 1
+        children DEF plane_0027 Transform {
+          children Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 1 0 0.8
+              }
+            }
+            geometry IndexedFaceSet {
+              solid FALSE
+              normalIndex [
+                0, 0, 0, 0, -1 
+              ]
+              coordIndex [
+                0, 1, 2, 3, -1 
+              ]
+              normal Normal {
+                vector 0 0 1
+              }
+              coord DEF Plane_Square_IFS_Coord_0027 Coordinate {
+                point [
+                  -10.0781 10.0781 0,
+                  -10.0781 -10.078 0,
+                  10.0781 -10.078 0,
+                  10.0781 10.0781 0 
+                ]
+              }
+            }
+          }
+        }
+      }
+      DEF Cross_hair_0002 Transform {
+        scale 0.113125 0.015 1
+        children DEF plane_0028 Transform {
+          children Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 1 0 0.8
+              }
+            }
+            geometry IndexedFaceSet {
+              solid FALSE
+              normalIndex [
+                0, 0, 0, 0, -1 
+              ]
+              coordIndex [
+                0, 1, 2, 3, -1 
+              ]
+              normal Normal {
+                vector 0 0 1
+              }
+              coord DEF Plane_Square_IFS_Coord_0028 Coordinate {
+                point [
+                  -10.0781 10.0781 0,
+                  -10.0781 -10.078 0,
+                  10.0781 -10.078 0,
+                  10.0781 10.0781 0 
+                ]
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}
+Viewpoint {
+  fieldOfView 0.9
+}
+DEF Ship_accel Transform {
+  translation 0 0.4 0.003
+  scale 0.8 0.8 0.8
+  children DEF acc_diamond Transform {
+    scale 0.01 0.01 0.01
+    rotation 0 0 1 0.785398
+    children [
+      DEF Ship_box_0005 Transform {
+        translation 0 9 0
+        scale 1 0.1 1
+        children DEF plane_0020 Transform {
+          children Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 1 1 0
+              }
+            }
+            geometry IndexedFaceSet {
+              solid FALSE
+              normalIndex [
+                0, 0, 0, 0, -1 
+              ]
+              coordIndex [
+                0, 1, 2, 3, -1 
+              ]
+              normal Normal {
+                vector 0 0 1
+              }
+              coord DEF Plane_Square_IFS_Coord_0020 Coordinate {
+                point [
+                  -10.0781 10.0781 0,
+                  -10.0781 -10.078 0,
+                  10.0781 -10.078 0,
+                  10.0781 10.0781 0 
+                ]
+              }
+            }
+          }
+        }
+      }
+      DEF Ship_box_0006 Transform {
+        translation 9 0 0
+        scale 0.1 1 1
+        children DEF plane_0021 Transform {
+          children Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 1 1 0
+              }
+            }
+            geometry IndexedFaceSet {
+              solid FALSE
+              normalIndex [
+                0, 0, 0, 0, -1 
+              ]
+              coordIndex [
+                0, 1, 2, 3, -1 
+              ]
+              normal Normal {
+                vector 0 0 1
+              }
+              coord DEF Plane_Square_IFS_Coord_0021 Coordinate {
+                point [
+                  -10.0781 10.0781 0,
+                  -10.0781 -10.078 0,
+                  10.0781 -10.078 0,
+                  10.0781 10.0781 0 
+                ]
+              }
+            }
+          }
+        }
+      }
+      DEF Ship_box_0007 Transform {
+        translation 0 -9 0
+        scale 1 0.1 1
+        children DEF plane_0022 Transform {
+          children Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 1 1 0
+              }
+            }
+            geometry IndexedFaceSet {
+              solid FALSE
+              normalIndex [
+                0, 0, 0, 0, -1 
+              ]
+              coordIndex [
+                0, 1, 2, 3, -1 
+              ]
+              normal Normal {
+                vector 0 0 1
+              }
+              coord DEF Plane_Square_IFS_Coord_0022 Coordinate {
+                point [
+                  -10.0781 10.0781 0,
+                  -10.0781 -10.078 0,
+                  10.0781 -10.078 0,
+                  10.0781 10.0781 0 
+                ]
+              }
+            }
+          }
+        }
+      }
+      DEF Ship_box_0008 Transform {
+        translation -9 0 0
+        scale 0.1 1 1
+        children DEF plane_0023 Transform {
+          children Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 1 1 0
+              }
+            }
+            geometry IndexedFaceSet {
+              solid FALSE
+              normalIndex [
+                0, 0, 0, 0, -1 
+              ]
+              coordIndex [
+                0, 1, 2, 3, -1 
+              ]
+              normal Normal {
+                vector 0 0 1
+              }
+              coord DEF Plane_Square_IFS_Coord_0023 Coordinate {
+                point [
+                  -10.0781 10.0781 0,
+                  -10.0781 -10.078 0,
+                  10.0781 -10.078 0,
+                  10.0781 10.0781 0 
+                ]
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}
+DEF Fuel Group {
+  children [
+    DEF FuelTitle Transform {
+      translation -0.625 -0.335 9
+      scale 0.03 0.03 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Text {
+          maxExtent 3.8
+          length 0
+          string "Fuel" 
+        }
+      }
+    }
+    DEF _50_slugs_Fuel Transform {
+      translation -0.67 -0.005 9
+      scale 0.03 0.03 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Text {
+          maxExtent 3.8
+          length 0
+          string "50" 
+        }
+      }
+    }
+    DEF FuelGauge Transform {
+      translation -6 0 0.05
+      center 0 -3 0
+      children Shape {
+        appearance Appearance {
+          material Material {
+            diffuseColor 1 1 0.3
+            ambientIntensity 0
+          }
+        }
+        geometry Box {
+          size 0.6 6 0.001
+        }
+      }
+    }
+    DEF BackFuel Transform {
+      translation -6 0 0
+      children Shape {
+        appearance Appearance {
+          material Material {
+            transparency 0.9
+          }
+        }
+        geometry Box {
+          size 0.6 6 0.1
+        }
+      }
+    }
+    DEF FuelTick1 Transform {
+      translation -6.25 2.96 0.05
+      children Shape {
+        appearance Appearance {
+          material Material {
+            diffuseColor 0.747776 0.77 0.753333
+          }
+        }
+        geometry Box {
+          size 0.1 0.05 0.001
+        }
+      }
+    }
+    DEF FuelTick2 Transform {
+      translation -6.25 2.4 0.05
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Box {
+          size 0.1 0.05 0.001
+        }
+      }
+    }
+    DEF FuelTick3 Transform {
+      translation -6.25 1.8 0.0511
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Box {
+          size 0.1 0.05 0.001
+        }
+      }
+    }
+    DEF FuelTick5 Transform {
+      translation -6.25 0.6 0.05
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Box {
+          size 0.1 0.05 0.001
+        }
+      }
+    }
+    DEF FuelTick6 Transform {
+      translation -6.25 0 0.05
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Box {
+          size 0.1 0.05 0.001
+        }
+      }
+    }
+    DEF FuelTick7 Transform {
+      translation -6.25 -0.6 0.05
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Box {
+          size 0.1 0.05 0.001
+        }
+      }
+    }
+    DEF FuelTick9 Transform {
+      translation -6.25 -1.8 0.05
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Box {
+          size 0.1 0.05 0.001
+        }
+      }
+    }
+    DEF FuelTick11 Transform {
+      translation -6.25 -2.96 0.05
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Box {
+          size 0.1 0.05 0.001
+        }
+      }
+    }
+    DEF FuelTick8 Transform {
+      translation -6.25 -1.2 0.05
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Box {
+          size 0.1 0.05 0.001
+        }
+      }
+    }
+    DEF FuelTick10 Transform {
+      translation -6.25 -2.4 0.05
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Box {
+          size 0.1 0.05 0.001
+        }
+      }
+    }
+    DEF _10_slugs_Fuel Transform {
+      translation -0.67 -0.249 9
+      scale 0.03 0.03 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Text {
+          maxExtent 3.8
+          length 0
+          string "10" 
+        }
+      }
+    }
+    DEF _00_slugs_Fuel Transform {
+      translation -0.658 -0.305 9
+      scale 0.03 0.03 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Text {
+          maxExtent 3.8
+          length 0
+          string "0" 
+        }
+      }
+    }
+    DEF _20_slugs_Fuel Transform {
+      translation -0.67 -0.19 9
+      scale 0.03 0.03 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Text {
+          maxExtent 3.8
+          length 0
+          string "20" 
+        }
+      }
+    }
+    DEF _30_slugs_Fuel Transform {
+      translation -0.67 -0.13 9
+      scale 0.03 0.03 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Text {
+          maxExtent 3.8
+          length 0
+          string "30" 
+        }
+      }
+    }
+    DEF _40_slugs_Fuel Transform {
+      translation -0.67 -0.07 9
+      scale 0.03 0.03 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Text {
+          maxExtent 3.8
+          length 0
+          string "40" 
+        }
+      }
+    }
+    DEF _60_slugs_Fuel Transform {
+      translation -0.67 0.05 9
+      scale 0.03 0.03 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Text {
+          maxExtent 3.8
+          length 0
+          string "60" 
+        }
+      }
+    }
+    DEF _70_slugs_Fuel Transform {
+      translation -0.67 0.1125 9
+      scale 0.03 0.03 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Text {
+          maxExtent 3.8
+          length 0
+          string "70" 
+        }
+      }
+    }
+    DEF _80_slugs_Fuel Transform {
+      translation -0.67 0.1725 9
+      scale 0.03 0.03 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Text {
+          maxExtent 3.8
+          length 0
+          string "80" 
+        }
+      }
+    }
+    DEF _90_slugs_Fuel Transform {
+      translation -0.67 0.2325 9
+      scale 0.03 0.03 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Text {
+          maxExtent 3.8
+          length 0
+          string "90" 
+        }
+      }
+    }
+    DEF _99_slugs_Fuel Transform {
+      translation -0.679 0.2925 9
+      scale 0.03 0.03 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Text {
+          maxExtent 3.8
+          length 0
+          string "100" 
+        }
+      }
+    }
+    DEF FuelTick4 Transform {
+      translation -6.25 1.2 0.05
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Box {
+          size 0.1 0.05 0.001
+        }
+      }
+    }
+  ]
+}
+DEF Alt-Trans Transform {
+  translation -0.2 0 0
+  children DEF Altitude Group {
+    children [
+      DEF BackAlt Transform {
+        translation 5.5 0 0.01
+        children Shape {
+          appearance Appearance {
+            material Material {
+              transparency 0.9
+            }
+          }
+          geometry Box {
+            size 0.6 6 0.001
+          }
+        }
+      }
+      DEF alt_text Transform {
+        translation 0.175 0 0
+        children [
+          DEF AltTitle Transform {
+            translation 0.515 -0.34 9
+            scale 0.03 0.03 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Text {
+                maxExtent 3.8
+                length 0
+                string "Altitude" 
+              }
+            }
+          }
+          DEF _500AltText Transform {
+            translation 0.48 0.29 9
+            scale 0.03 0.03 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Text {
+                maxExtent 3.8
+                length 0
+                string "500" 
+              }
+            }
+          }
+          DEF _400AltText Transform {
+            translation 0.48 0.215 9
+            scale 0.03 0.03 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Text {
+                maxExtent 3.8
+                length 0
+                string "400" 
+              }
+            }
+          }
+          DEF _300AltText Transform {
+            translation 0.48 0.135 9
+            scale 0.03 0.03 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Text {
+                maxExtent 3.8
+                length 0
+                string "300" 
+              }
+            }
+          }
+          DEF _200AltText Transform {
+            translation 0.48 0.055 9
+            scale 0.03 0.03 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Text {
+                maxExtent 3.8
+                length 0
+                string "200" 
+              }
+            }
+          }
+          DEF _100AltText Transform {
+            translation 0.48 -0.025 9
+            scale 0.03 0.03 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Text {
+                maxExtent 3.8
+                length 0
+                string "100" 
+              }
+            }
+          }
+          DEF _0AltText Transform {
+            translation 0.5 -0.105 9
+            scale 0.03 0.03 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Text {
+                maxExtent 3.8
+                length 0
+                string "0" 
+              }
+            }
+          }
+          DEF _-150AltText Transform {
+            translation 0.475 -0.23 9
+            scale 0.03 0.03 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Text {
+                maxExtent 3.8
+                length 0
+                string "-150" 
+              }
+            }
+          }
+          DEF _-250AltText Transform {
+            translation 0.475 -0.305 9
+            scale 0.03 0.03 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Text {
+                maxExtent 3.8
+                length 0
+                string "-250" 
+              }
+            }
+          }
+        ]
+      }
+      DEF AltTick1 Transform {
+        translation 5.2 2.95 0.1
+        children Shape {
+          appearance Appearance {
+            material Material {
+            }
+          }
+          geometry Box {
+            size 0.1 0.05 0.001
+          }
+        }
+      }
+      DEF AltTick2 Transform {
+        translation 5.2 2.6 0.1
+        children Shape {
+          appearance Appearance {
+            material Material {
+            }
+          }
+          geometry Box {
+            size 0.1 0.05 0.001
+          }
+        }
+      }
+      DEF AltTick3 Transform {
+        translation 5.2 2.2 0.1
+        children Shape {
+          appearance Appearance {
+            material Material {
+            }
+          }
+          geometry Box {
+            size 0.1 0.05 0.001
+          }
+        }
+      }
+      DEF AltTick4 Transform {
+        translation 5.2 1.8 0.1
+        children Shape {
+          appearance Appearance {
+            material Material {
+            }
+          }
+          geometry Box {
+            size 0.1 0.05 0.001
+          }
+        }
+      }
+      DEF AltTick5 Transform {
+        translation 5.2 1.4 0.1
+        children Shape {
+          appearance Appearance {
+            material Material {
+            }
+          }
+          geometry Box {
+            size 0.1 0.05 0.001
+          }
+        }
+      }
+      DEF AltTick6 Transform {
+        translation 5.2 1 0.1
+        children Shape {
+          appearance Appearance {
+            material Material {
+            }
+          }
+          geometry Box {
+            size 0.1 0.05 0.001
+          }
+        }
+      }
+      DEF AltTick7 Transform {
+        translation 5.2 0.6 0.1
+        children Shape {
+          appearance Appearance {
+            material Material {
+            }
+          }
+          geometry Box {
+            size 0.1 0.05 0.001
+          }
+        }
+      }
+      DEF AltTick8 Transform {
+        translation 5.2 0.2 0.1
+        children Shape {
+          appearance Appearance {
+            material Material {
+            }
+          }
+          geometry Box {
+            size 0.1 0.05 0.001
+          }
+        }
+      }
+      DEF AltTick9 Transform {
+        translation 5.2 -0.2 0.1
+        children Shape {
+          appearance Appearance {
+            material Material {
+            }
+          }
+          geometry Box {
+            size 0.1 0.05 0.001
+          }
+        }
+      }
+      DEF AltTick10 Transform {
+        translation 5.2 -0.6 0.1
+        children Shape {
+          appearance Appearance {
+            material Material {
+            }
+          }
+          geometry Box {
+            size 0.1 0.05 0.001
+          }
+        }
+      }
+      DEF AltTick11 Transform {
+        translation 5.5 -1 0.01
+        children Shape {
+          appearance Appearance {
+            material Material {
+            }
+          }
+          geometry Box {
+            size 0.6 0.05 0.001
+          }
+        }
+      }
+      DEF AltTick12 Transform {
+        translation 5.2 -1.4 0.1
+        children Shape {
+          appearance Appearance {
+            material Material {
+            }
+          }
+          geometry Box {
+            size 0.1 0.05 0.001
+          }
+        }
+      }
+      DEF AltTick13 Transform {
+        translation 5.2 -1.8 0.1
+        children Shape {
+          appearance Appearance {
+            material Material {
+            }
+          }
+          geometry Box {
+            size 0.1 0.05 0.001
+          }
+        }
+      }
+      DEF AltTick14 Transform {
+        translation 5.2 -2.2 0.1
+        children Shape {
+          appearance Appearance {
+            material Material {
+            }
+          }
+          geometry Box {
+            size 0.1 0.05 0.001
+          }
+        }
+      }
+      DEF AltTick15 Transform {
+        translation 5.2 -2.6 0.1
+        children Shape {
+          appearance Appearance {
+            material Material {
+            }
+          }
+          geometry Box {
+            size 0.1 0.05 0.001
+          }
+        }
+      }
+      DEF AltTick16 Transform {
+        translation 5.2 -2.94 0.1
+        children Shape {
+          appearance Appearance {
+            material Material {
+            }
+          }
+          geometry Box {
+            size 0.1 0.05 0.001
+          }
+        }
+      }
+      DEF DesignatedLanding Transform {
+        translation 5.45 -0.8 0.01
+        children Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.9 0.1 1
+            }
+          }
+          geometry Box {
+            size 0.6 0.05 0.001
+          }
+        }
+      }
+      DEF DesignatedHTD Transform {
+        translation 5.45 0 0.001
+        children Shape {
+          appearance Appearance {
+            material Material {
+            }
+          }
+          geometry Box {
+            size 0.6 0.05 0.01
+          }
+        }
+      }
+      DEF AltitudeTriangle Transform {
+        translation 5.5 0 0.1023
+        scale 0.15 0.00999999 0.15
+        rotation -1 0 0 1.5708
+        children Shape {
+          appearance Appearance {
+            material Material {
+              emissiveColor 1 1 0
+              diffuseColor 1 1 0
+            }
+          }
+          geometry Extrusion {
+            scale [
+              1 1,
+              1 1 
+            ]
+            orientation [
+              0 0 1 0,
+              0 0 1 0 
+            ]
+            crossSection [
+              -0.992771 0.0134158,
+              0.996386 1.0227,
+              1 -1,
+              -0.992771 0.0134158 
+            ]
+            ccw FALSE
+          }
+        }
+      }
+      DEF Abort_box Transform {
+        translation 5.5 0 0
+        scale 0.03 0.06 0.1
+        children DEF Plane_Square_0002 Transform {
+          children DEF plane_0016 Transform {
+            children Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 0.6 0 0
+                }
+              }
+              geometry IndexedFaceSet {
+                solid FALSE
+                normalIndex [
+                  0, 0, 0, 0, -1 
+                ]
+                coordIndex [
+                  0, 1, 2, 3, -1 
+                ]
+                normal Normal {
+                  vector 0 0 1
+                }
+                coord DEF Plane_Square_IFS_Coord_0016 Coordinate {
+                  point [
+                    -10.0781 10.0781 0,
+                    -10.0781 -10.078 0,
+                    10.0781 -10.078 0,
+                    10.0781 10.0781 0 
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}
+DEF Vert-Trans Transform {
+  translation -0.2 0 0
+  children DEF Vertical_Velocity Group {
+    children [
+      DEF Disp Transform {
+        translation 11.3 0.175 0
+        children [
+          DEF AltitudeTriangle_0002 Transform {
+            translation -4.7 -2.94 0.15
+            scale 0.15 0.00999999 0.15
+            rotation -1.5708 0 0 1.5708
+            children Shape {
+              appearance Appearance {
+                material Material {
+                  emissiveColor 1 1 0
+                  diffuseColor 1 1 0
+                }
+              }
+              geometry Extrusion {
+                scale [
+                  1 1,
+                  1 1 
+                ]
+                orientation [
+                  0 0 1 0,
+                  0 0 1 0 
+                ]
+                crossSection [
+                  -0.992771 0.0134158,
+                  0.996386 1.0227,
+                  1 -1,
+                  -0.992771 0.0134158 
+                ]
+                ccw FALSE
+              }
+            }
+          }
+          DEF AltTick3_0002 Transform {
+            translation -5 2.2 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Box {
+                size 0.1 0.05 0.001
+              }
+            }
+          }
+          DEF AltTick4_0002 Transform {
+            translation -5 1.8 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Box {
+                size 0.1 0.05 0.001
+              }
+            }
+          }
+          DEF AltTick5_0002 Transform {
+            translation -5 1.4 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Box {
+                size 0.1 0.05 0.001
+              }
+            }
+          }
+          DEF AltTick6_0002 Transform {
+            translation -5 1 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Box {
+                size 0.1 0.05 0.001
+              }
+            }
+          }
+          DEF AltTick7_0002 Transform {
+            translation -5 0.6 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Box {
+                size 0.1 0.05 0.001
+              }
+            }
+          }
+          DEF AltTick8_0002 Transform {
+            translation -5 0.2 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Box {
+                size 0.1 0.05 0.001
+              }
+            }
+          }
+          DEF AltTick9_0002 Transform {
+            translation -5 -2.94 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Box {
+                size 0.1 0.05 0.001
+              }
+            }
+          }
+          DEF AltTick10_0002 Transform {
+            translation -5 -0.6 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Box {
+                size 0.1 0.05 0.001
+              }
+            }
+          }
+          DEF AltTick12_0002 Transform {
+            translation -5 -1.4 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Box {
+                size 0.1 0.05 0.001
+              }
+            }
+          }
+          DEF AltTick13_0002 Transform {
+            translation -5 -1.8 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Box {
+                size 0.1 0.05 0.001
+              }
+            }
+          }
+          DEF AltTick14_0002 Transform {
+            translation -5 -2.2 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Box {
+                size 0.1 0.05 0.001
+              }
+            }
+          }
+          DEF AltTick15_0002 Transform {
+            translation -5 -2.6 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Box {
+                size 0.1 0.05 0.001
+              }
+            }
+          }
+          DEF AltTick16_0002 Transform {
+            translation -5 -1 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Box {
+                size 0.1 0.05 0.001
+              }
+            }
+          }
+          DEF AltTick2_0002 Transform {
+            translation -5 2.57 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Box {
+                size 0.1 0.05 0.001
+              }
+            }
+          }
+          DEF DesignatedLanding_0002 Transform {
+            translation -4.75 -0.2 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Box {
+                size 0.6 0.05 0.001
+              }
+            }
+          }
+          DEF BackAlt_0002 Transform {
+            translation -4.66 -0.19 0.01
+            scale 1 0.935 1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                  transparency 0.9
+                }
+              }
+              geometry Box {
+                size 0.6 6 0.001
+              }
+            }
+          }
+        ]
+      }
+      DEF Text Transform {
+        translation 1.32 0 0
+        children [
+          DEF AltTitle_0002 Transform {
+            translation -0.515 -0.325 9
+            scale 0.03 0.03 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Text {
+                maxExtent 3.8
+                length 0
+                string [
+                  "Vertical" 
+                  "Velocity" 
+                ]
+              }
+            }
+          }
+          DEF _-15Text_0002 Transform {
+            translation -0.55 -0.2125 9
+            scale 0.03 0.03 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Text {
+                maxExtent 3.8
+                length 0
+                string "-15" 
+              }
+            }
+          }
+          DEF _+00Text_0001 Transform {
+            translation -0.55 -0.01 9
+            scale 0.03 0.03 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Text {
+                maxExtent 3.8
+                length 0
+                string "   0" 
+              }
+            }
+          }
+          DEF _+15Text_0001 Transform {
+            translation -0.55 0.1925 9
+            scale 0.03 0.03 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Text {
+                maxExtent 3.8
+                length 0
+                string "  15" 
+              }
+            }
+          }
+          DEF _-03Text_0001 Transform {
+            translation -0.55 -0.05 9
+            scale 0.03 0.03 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Text {
+                maxExtent 3.8
+                length 0
+                string "  -3" 
+              }
+            }
+          }
+          DEF _+03Text_0001 Transform {
+            translation -0.55 0.03 9
+            scale 0.03 0.03 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Text {
+                maxExtent 3.8
+                length 0
+                string "   3" 
+              }
+            }
+          }
+          DEF _+09Text_0001 Transform {
+            translation -0.55 0.1125 9
+            scale 0.03 0.03 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Text {
+                maxExtent 3.8
+                length 0
+                string "   9" 
+              }
+            }
+          }
+          DEF _+21Text_0001 Transform {
+            translation -0.55 0.27 9
+            scale 0.03 0.03 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Text {
+                maxExtent 3.8
+                length 0
+                string "  21" 
+              }
+            }
+          }
+          DEF _-09Text_0001 Transform {
+            translation -0.55 -0.13 9
+            scale 0.03 0.03 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Text {
+                maxExtent 3.8
+                length 0
+                string "  -9" 
+              }
+            }
+          }
+          DEF _-21Text_0001 Transform {
+            translation -0.55 -0.2875 9
+            scale 0.03 0.03 0.1
+            children Shape {
+              appearance Appearance {
+                material Material {
+                }
+              }
+              geometry Text {
+                maxExtent 3.8
+                length 0
+                string "-21" 
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
+DEF Groundspeed Group {
+  children [
+    DEF AltitudeTriangle_0001 Transform {
+      translation -4.7 -2.94 0.15
+      scale 0.15 0.00999999 0.15
+      rotation -1.5708 0 0 1.5708
+      children Shape {
+        appearance Appearance {
+          material Material {
+            emissiveColor 1 1 0
+            diffuseColor 1 1 0
+          }
+        }
+        geometry Extrusion {
+          scale [
+            1 1,
+            1 1 
+          ]
+          orientation [
+            0 0 1 0,
+            0 0 1 0 
+          ]
+          crossSection [
+            -0.992771 0.0134158,
+            0.996386 1.0227,
+            1 -1,
+            -0.992771 0.0134158 
+          ]
+          ccw FALSE
+        }
+      }
+    }
+    DEF BackAlt_0001 Transform {
+      translation -4.75 0 0.01
+      children Shape {
+        appearance Appearance {
+          material Material {
+            transparency 0.9
+          }
+        }
+        geometry Box {
+          size 0.6 6 0.001
+        }
+      }
+    }
+    DEF AltTitle_0001 Transform {
+      translation -0.54 -0.335 9
+      scale 0.03 0.03 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Text {
+          maxExtent 3.8
+          length 0
+          string "Groundspeed" 
+        }
+      }
+    }
+    DEF _100AltText_0001 Transform {
+      translation -0.55 -0.107 9
+      scale 0.03 0.03 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Text {
+          maxExtent 3.8
+          length 0
+          string "100" 
+        }
+      }
+    }
+    DEF AltTick1_0001 Transform {
+      translation -5 2.95 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Box {
+          size 0.1 0.05 0.001
+        }
+      }
+    }
+    DEF AltTick3_0001 Transform {
+      translation -5 2.2 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Box {
+          size 0.1 0.05 0.001
+        }
+      }
+    }
+    DEF AltTick4_0001 Transform {
+      translation -5 1.8 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Box {
+          size 0.1 0.05 0.001
+        }
+      }
+    }
+    DEF AltTick5_0001 Transform {
+      translation -5 1.4 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Box {
+          size 0.1 0.05 0.001
+        }
+      }
+    }
+    DEF AltTick6_0001 Transform {
+      translation -5 1 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Box {
+          size 0.1 0.05 0.001
+        }
+      }
+    }
+    DEF AltTick7_0001 Transform {
+      translation -5 0.6 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Box {
+          size 0.1 0.05 0.001
+        }
+      }
+    }
+    DEF AltTick8_0001 Transform {
+      translation -5 0.2 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Box {
+          size 0.1 0.05 0.001
+        }
+      }
+    }
+    DEF AltTick9_0001 Transform {
+      translation -5 -0.2 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Box {
+          size 0.1 0.05 0.001
+        }
+      }
+    }
+    DEF AltTick10_0001 Transform {
+      translation -5 -0.6 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Box {
+          size 0.1 0.05 0.001
+        }
+      }
+    }
+    DEF AltTick12_0001 Transform {
+      translation -5 -1.4 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Box {
+          size 0.1 0.05 0.001
+        }
+      }
+    }
+    DEF AltTick13_0001 Transform {
+      translation -5 -1.8 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Box {
+          size 0.1 0.05 0.001
+        }
+      }
+    }
+    DEF AltTick14_0001 Transform {
+      translation -4.75 -2.2 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Box {
+          size 0.6 0.05 0.001
+        }
+      }
+    }
+    DEF AltTick15_0001 Transform {
+      translation -5 -2.6 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Box {
+          size 0.1 0.05 0.001
+        }
+      }
+    }
+    DEF AltTick16_0001 Transform {
+      translation -5 -1 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Box {
+          size 0.1 0.05 0.001
+        }
+      }
+    }
+    DEF DesignatedLanding_0001 Transform {
+      translation -4.75 -2.94 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Box {
+          size 0.6 0.05 0.001
+        }
+      }
+    }
+    DEF _200AltText_0003 Transform {
+      translation -0.55 0.095 9
+      scale 0.03 0.03 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Text {
+          maxExtent 3.8
+          length 0
+          string "200" 
+        }
+      }
+    }
+    DEF _300AltText_0003 Transform {
+      translation -0.55 0.29 9
+      scale 0.03 0.03 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Text {
+          maxExtent 3.8
+          length 0
+          string "300" 
+        }
+      }
+    }
+    DEF AltTick2_0001 Transform {
+      translation -5 2.57 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry Box {
+          size 0.1 0.05 0.001
+        }
+      }
+    }
+  ]
+}
+DEF Time_To_Empty Transform {
+  translation -5.45 -3.35 1
+  children [
+    DEF Plane_Square_0003 Transform {
+      scale 0.04 0.02 0.01
+      children DEF plane_0017 Transform {
+        children Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0 0 0
+            }
+          }
+          geometry IndexedFaceSet {
+            solid FALSE
+            normalIndex [
+              0, 0, 0, 0, -1 
+            ]
+            coordIndex [
+              0, 1, 2, 3, -1 
+            ]
+            normal Normal {
+              vector 0 0 1
+            }
+            coord DEF Plane_Square_IFS_Coord_0017 Coordinate {
+              point [
+                -10.0781 10.0781 0,
+                -10.0781 -10.078 0,
+                10.0781 -10.078 0,
+                10.0781 10.0781 0 
+              ]
+            }
+          }
+        }
+      }
+    }
+    DEF Time_Display Transform {
+      translation -0.3 -0.1 0.001
+      scale 0.35 0.35 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry DEF sec2emp Text {
+          maxExtent 3.8
+          length 0
+          string "000" 
+        }
+      }
+    }
+    DEF Time_Display_0001 Transform {
+      translation 0.2 -0.075 0.001
+      scale 0.35 0.35 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry DEF sec2emp_0001 Text {
+          maxExtent 3.8
+          length 0
+          string "s" 
+        }
+      }
+    }
+  ]
+}
+DEF Control_Modes Transform {
+  translation 0 4.35 0
+  children [
+    DEF RCAH Transform {
+      translation -2.6 0 0.001
+      scale 0.6 0.6 0.1
+      children Shape {
+        appearance Appearance {
+          material DEF RCAH_Color Material {
+            diffuseColor 0 1 0
+          }
+        }
+        geometry DEF sec2emp_0002 Text {
+          maxExtent 3.8
+          length 0
+          fontStyle FontStyle {
+            style "BOLD"
+            family "SANS" 
+          }
+          string "RCAH" 
+        }
+      }
+    }
+    DEF IPC Transform {
+      translation -0.35 0 0.001
+      scale 0.6 0.6 0.1
+      children Shape {
+        appearance Appearance {
+          material DEF IPC_Color Material {
+          }
+        }
+        geometry DEF sec2emp_0003 Text {
+          maxExtent 3.8
+          length 0
+          fontStyle FontStyle {
+            style "BOLD"
+            family "SANS" 
+          }
+          string "IPA" 
+        }
+      }
+    }
+    DEF AUTO Transform {
+      translation 1.4 0 0.001
+      scale 0.6 0.6 0.1
+      children Shape {
+        appearance Appearance {
+          material DEF AUTO_Color Material {
+          }
+        }
+        geometry DEF sec2emp_0004 Text {
+          maxExtent 3.8
+          length 0
+          fontStyle FontStyle {
+            style "BOLD"
+            family "SANS" 
+          }
+          string "IPC" 
+        }
+      }
+    }
+  ]
+}
+DEF Range Transform {
+  translation -2.75 -3.75 0.15
+  children [
+    DEF rng_val Transform {
+      translation -0.4 -0.1 0.001
+      scale 0.35 0.35 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+            diffuseColor 1 0 0.8
+          }
+        }
+        geometry DEF Range_txt Text {
+          maxExtent 3.8
+          length 0
+          string "0000" 
+        }
+      }
+    }
+    DEF Range_Display_0000 Transform {
+      translation 0.2 -0.1 0.001
+      scale 0.35 0.35 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+            diffuseColor 1 0 0.8
+          }
+        }
+        geometry DEF sec2emp_0006 Text {
+          maxExtent 3.8
+          length 0
+          string "ft" 
+        }
+      }
+    }
+    DEF Range_Display_0001 Transform {
+      translation -0.7 -0.1 0.001
+      scale 0.35 0.35 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+            diffuseColor 1 0 0.8
+          }
+        }
+        geometry DEF sec2emp_0005 Text {
+          maxExtent 3.8
+          length 0
+          string "R:" 
+        }
+      }
+    }
+  ]
+}
+DEF Map Transform {
+  translation -120 -120 -1
+  scale 40 40 1
+  children DEF plane_0004 Transform {
+    translation 2.998 3.004 0
+    scale 0.29767 0.29767 1
+    children Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url "ALD_Map_HSI.png" 
+        }
+        material Material {
+          diffuseColor 1 1 1
+        }
+      }
+      geometry IndexedFaceSet {
+        solid FALSE
+        normalIndex [
+          0, 0, 0, 0, -1 
+        ]
+        coordIndex [
+          0, 1, 2, 3, -1 
+        ]
+        normal Normal {
+          vector 0 0 1
+        }
+        coord DEF Plane_Square_IFS_Coord_0004 Coordinate {
+          point [
+            -10.0781 10.0781 0,
+            -10.0781 -10.078 0,
+            10.0781 -10.078 0,
+            10.0781 10.0781 0 
+          ]
+        }
+      }
+    }
+  }
+}
+DEF Abort Transform {
+  translation 0 0 -1
+  scale 0.4 0.4 0.4
+  children DEF Plane_Square Transform {
+    children DEF plane_0029 Transform {
+      children Shape {
+        appearance Appearance {
+          texture ImageTexture {
+            url "C:/Users/ARES/Documents/ARES Simulation SR/Graphics/hsi_abort_image.png" 
+          }
+          material Material {
+            diffuseColor 1 1 1
+          }
+        }
+        geometry IndexedFaceSet {
+          solid FALSE
+          normalIndex [
+            0, 0, 0, 0, -1 
+          ]
+          coordIndex [
+            0, 1, 2, 3, -1 
+          ]
+          normal Normal {
+            vector 0 0 1
+          }
+          coord DEF Plane_Square_IFS_Coord_0029 Coordinate {
+            point [
+              -10.0781 10.0781 0,
+              -10.0781 -10.078 0,
+              10.0781 -10.078 0,
+              10.0781 10.0781 0 
+            ]
+          }
+        }
+      }
+    }
+  }
+}
+DEF Land Transform {
+  translation 0 0 -1
+  scale 0.4 0.4 0.4
+  children DEF Plane_Square_0004 Transform {
+    children DEF plane_0030 Transform {
+      children Shape {
+        appearance Appearance {
+          texture ImageTexture {
+            url "C:/Users/ARES/Documents/ARES Simulation SR/Graphics/hsi_land_image.png" 
+          }
+          material Material {
+            diffuseColor 1 1 1
+          }
+        }
+        geometry IndexedFaceSet {
+          solid FALSE
+          normalIndex [
+            0, 0, 0, 0, -1 
+          ]
+          coordIndex [
+            0, 1, 2, 3, -1 
+          ]
+          normal Normal {
+            vector 0 0 1
+          }
+          coord DEF Plane_Square_IFS_Coord_0030 Coordinate {
+            point [
+              -10.0781 10.0781 0,
+              -10.0781 -10.078 0,
+              10.0781 -10.078 0,
+              10.0781 10.0781 0 
+            ]
+          }
+        }
+      }
+    }
+  }
+}
+DEF Fuel_img Transform {
+  translation 0 0 -1
+  scale 0.4 0.4 0.4
+  children DEF Plane_Square_0010 Transform {
+    children DEF plane_0031 Transform {
+      children Shape {
+        appearance Appearance {
+          texture ImageTexture {
+            url "C:/Users/ARES/Documents/ARES Simulation SR/Graphics/hsi_fuel_image.png" 
+          }
+          material Material {
+            diffuseColor 1 1 1
+          }
+        }
+        geometry IndexedFaceSet {
+          solid FALSE
+          normalIndex [
+            0, 0, 0, 0, -1 
+          ]
+          coordIndex [
+            0, 1, 2, 3, -1 
+          ]
+          normal Normal {
+            vector 0 0 1
+          }
+          coord DEF Plane_Square_IFS_Coord_0031 Coordinate {
+            point [
+              -10.0781 10.0781 0,
+              -10.0781 -10.078 0,
+              10.0781 -10.078 0,
+              10.0781 10.0781 0 
+            ]
+          }
+        }
+      }
+    }
+  }
+}
+DEF ALD Transform {
+  translation 10 0 -0.0105
+  children DEF Plane_Square_0011 Transform {
+    scale 0.297 0.297 1
+    children DEF plane_0032 Transform {
+      children Shape {
+        appearance Appearance {
+          texture ImageTexture {
+            url "ALD_HSI.png" 
+          }
+          material Material {
+            diffuseColor 1 1 1
+          }
+        }
+        geometry IndexedFaceSet {
+          solid FALSE
+          normalIndex [
+            0, 0, 0, 0, -1 
+          ]
+          coordIndex [
+            0, 1, 2, 3, -1 
+          ]
+          normal Normal {
+            vector 0 0 1
+          }
+          coord DEF Plane_Square_IFS_Coord_0032 Coordinate {
+            point [
+              -10.0781 10.0781 0,
+              -10.0781 -10.078 0,
+              10.0781 -10.078 0,
+              10.0781 10.0781 0 
+            ]
+          }
+        }
+      }
+    }
+  }
+}
+DEF GS_readout Transform {
+  translation -4.4 -3.35 1
+  children [
+    DEF Plane_Square_0012 Transform {
+      translation 0.1 0 0
+      scale 0.05 0.02 0.01
+      children DEF plane_0033 Transform {
+        children Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0 0 0
+            }
+          }
+          geometry IndexedFaceSet {
+            solid FALSE
+            normalIndex [
+              0, 0, 0, 0, -1 
+            ]
+            coordIndex [
+              0, 1, 2, 3, -1 
+            ]
+            normal Normal {
+              vector 0 0 1
+            }
+            coord DEF Plane_Square_IFS_Coord_0033 Coordinate {
+              point [
+                -10.0781 10.0781 0,
+                -10.0781 -10.078 0,
+                10.0781 -10.078 0,
+                10.0781 10.0781 0 
+              ]
+            }
+          }
+        }
+      }
+    }
+    DEF Time_Display_0002 Transform {
+      translation -0.3 -0.075 0.001
+      scale 0.35 0.35 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry DEF gs_digital Text {
+          maxExtent 3.8
+          length 0
+          string "000" 
+        }
+      }
+    }
+    DEF Time_Display_0003 Transform {
+      translation 0.2 -0.075 0.001
+      scale 0.35 0.35 0.1
+      children Shape {
+        appearance Appearance {
+          material Material {
+          }
+        }
+        geometry DEF sec2emp_0007 Text {
+          maxExtent 3.8
+          length 0
+          string "ft/s" 
+        }
+      }
+    }
+  ]
+}
+DEF Original_LP Transform {
+  translation 0 0 -10
+  children [
+    DEF Bound Transform {
+      children DEF Plane_Square_0013 Transform {
+        scale 0.33 0.33 1
+        children DEF plane_0034 Transform {
+          children Shape {
+            appearance Appearance {
+              material Material {
+                transparency 1
+                diffuseColor 1 1 1
+              }
+            }
+            geometry IndexedFaceSet {
+              solid FALSE
+              normalIndex [
+                0, 0, 0, 0, -1 
+              ]
+              coordIndex [
+                0, 1, 2, 3, -1 
+              ]
+              normal Normal {
+                vector 0 0 1
+              }
+              coord DEF Plane_Square_IFS_Coord_0034 Coordinate {
+                point [
+                  -10.0781 10.0781 0,
+                  -10.0781 -10.078 0,
+                  10.0781 -10.078 0,
+                  10.0781 10.0781 0 
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+    DEF Bound_0001 Transform {
+      translation 0 3.33 0
+      children DEF Plane_Square_0014 Transform {
+        scale 0.33 0.002 1
+        children DEF plane_0035 Transform {
+          children Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 1 1 1
+              }
+            }
+            geometry IndexedFaceSet {
+              solid FALSE
+              normalIndex [
+                0, 0, 0, 0, -1 
+              ]
+              coordIndex [
+                0, 1, 2, 3, -1 
+              ]
+              normal Normal {
+                vector 0 0 1
+              }
+              coord DEF Plane_Square_IFS_Coord_0035 Coordinate {
+                point [
+                  -10.0781 10.0781 0,
+                  -10.0781 -10.078 0,
+                  10.0781 -10.078 0,
+                  10.0781 10.0781 0 
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+    DEF Bound_0002 Transform {
+      translation 3.33 0 0
+      children DEF Plane_Square_0015 Transform {
+        scale 0.002 0.33 1
+        children DEF plane_0036 Transform {
+          children Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 1 1 1
+              }
+            }
+            geometry IndexedFaceSet {
+              solid FALSE
+              normalIndex [
+                0, 0, 0, 0, -1 
+              ]
+              coordIndex [
+                0, 1, 2, 3, -1 
+              ]
+              normal Normal {
+                vector 0 0 1
+              }
+              coord DEF Plane_Square_IFS_Coord_0036 Coordinate {
+                point [
+                  -10.0781 10.0781 0,
+                  -10.0781 -10.078 0,
+                  10.0781 -10.078 0,
+                  10.0781 10.0781 0 
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+    DEF Bound_0003 Transform {
+      translation 0 -3.33 0
+      children DEF Plane_Square_0016 Transform {
+        scale 0.33 0.002 1
+        children DEF plane_0037 Transform {
+          children Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 1 1 1
+              }
+            }
+            geometry IndexedFaceSet {
+              solid FALSE
+              normalIndex [
+                0, 0, 0, 0, -1 
+              ]
+              coordIndex [
+                0, 1, 2, 3, -1 
+              ]
+              normal Normal {
+                vector 0 0 1
+              }
+              coord DEF Plane_Square_IFS_Coord_0037 Coordinate {
+                point [
+                  -10.0781 10.0781 0,
+                  -10.0781 -10.078 0,
+                  10.0781 -10.078 0,
+                  10.0781 10.0781 0 
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+    DEF Bound_0004 Transform {
+      translation -3.33 0 0
+      children DEF Plane_Square_0017 Transform {
+        scale 0.002 0.33 1
+        children DEF plane_0038 Transform {
+          children Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 1 1 1
+              }
+            }
+            geometry IndexedFaceSet {
+              solid FALSE
+              normalIndex [
+                0, 0, 0, 0, -1 
+              ]
+              coordIndex [
+                0, 1, 2, 3, -1 
+              ]
+              normal Normal {
+                vector 0 0 1
+              }
+              coord DEF Plane_Square_IFS_Coord_0038 Coordinate {
+                point [
+                  -10.0781 10.0781 0,
+                  -10.0781 -10.078 0,
+                  10.0781 -10.078 0,
+                  10.0781 10.0781 0 
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+    DEF Landing_Point_0001 Transform {
+      scale 2.25 2.25 2.25
+      children DEF LP_Box_0001 Transform {
+        translation 0 0 0.001
+        scale 0.025 0.025 0.025
+        children [
+          DEF Ship_box_0013 Transform {
+            translation 0 4.5 0
+            scale 0.4525 0.015 1
+            children DEF plane_0039 Transform {
+              children Shape {
+                appearance Appearance {
+                  material Material {
+                  }
+                }
+                geometry IndexedFaceSet {
+                  solid FALSE
+                  normalIndex [
+                    0, 0, 0, 0, -1 
+                  ]
+                  coordIndex [
+                    0, 1, 2, 3, -1 
+                  ]
+                  normal Normal {
+                    vector 0 0 1
+                  }
+                  coord DEF Plane_Square_IFS_Coord_0039 Coordinate {
+                    point [
+                      -10.0781 10.0781 0,
+                      -10.0781 -10.078 0,
+                      10.0781 -10.078 0,
+                      10.0781 10.0781 0 
+                    ]
+                  }
+                }
+              }
+            }
+          }
+          DEF Ship_box_0014 Transform {
+            translation 4.5 0 0
+            scale 0.015 0.4525 1
+            children DEF plane_0040 Transform {
+              children Shape {
+                appearance Appearance {
+                  material Material {
+                  }
+                }
+                geometry IndexedFaceSet {
+                  solid FALSE
+                  normalIndex [
+                    0, 0, 0, 0, -1 
+                  ]
+                  coordIndex [
+                    0, 1, 2, 3, -1 
+                  ]
+                  normal Normal {
+                    vector 0 0 1
+                  }
+                  coord DEF Plane_Square_IFS_Coord_0040 Coordinate {
+                    point [
+                      -10.0781 10.0781 0,
+                      -10.0781 -10.078 0,
+                      10.0781 -10.078 0,
+                      10.0781 10.0781 0 
+                    ]
+                  }
+                }
+              }
+            }
+          }
+          DEF Ship_box_0015 Transform {
+            translation 0 -4.5 0
+            scale 0.4525 0.015 1
+            children DEF plane_0041 Transform {
+              children Shape {
+                appearance Appearance {
+                  material Material {
+                    emissiveColor 0.8 0.8 0.8
+                    diffuseColor 1 1 1
+                  }
+                }
+                geometry IndexedFaceSet {
+                  solid FALSE
+                  normalIndex [
+                    0, 0, 0, 0, -1 
+                  ]
+                  coordIndex [
+                    0, 1, 2, 3, -1 
+                  ]
+                  normal Normal {
+                    vector 0 0 1
+                  }
+                  coord DEF Plane_Square_IFS_Coord_0041 Coordinate {
+                    point [
+                      -10.0781 10.0781 0,
+                      -10.0781 -10.078 0,
+                      10.0781 -10.078 0,
+                      10.0781 10.0781 0 
+                    ]
+                  }
+                }
+              }
+            }
+          }
+          DEF Ship_box_0016 Transform {
+            translation -4.5 0 0
+            scale 0.015 0.4525 1
+            children DEF plane_0042 Transform {
+              children Shape {
+                appearance Appearance {
+                  material Material {
+                    emissiveColor 0.8 0.8 0.8
+                    diffuseColor 1 1 1
+                  }
+                }
+                geometry IndexedFaceSet {
+                  solid FALSE
+                  normalIndex [
+                    0, 0, 0, 0, -1 
+                  ]
+                  coordIndex [
+                    0, 1, 2, 3, -1 
+                  ]
+                  normal Normal {
+                    vector 0 0 1
+                  }
+                  coord DEF Plane_Square_IFS_Coord_0042 Coordinate {
+                    point [
+                      -10.0781 10.0781 0,
+                      -10.0781 -10.078 0,
+                      10.0781 -10.078 0,
+                      10.0781 10.0781 0 
+                    ]
+                  }
+                }
+              }
+            }
+          }
+          DEF Cross_hair_0003 Transform {
+            scale 0.015 0.113125 1
+            children DEF plane_0043 Transform {
+              children Shape {
+                appearance Appearance {
+                  material Material {
+                  }
+                }
+                geometry IndexedFaceSet {
+                  solid FALSE
+                  normalIndex [
+                    0, 0, 0, 0, -1 
+                  ]
+                  coordIndex [
+                    0, 1, 2, 3, -1 
+                  ]
+                  normal Normal {
+                    vector 0 0 1
+                  }
+                  coord DEF Plane_Square_IFS_Coord_0043 Coordinate {
+                    point [
+                      -10.0781 10.0781 0,
+                      -10.0781 -10.078 0,
+                      10.0781 -10.078 0,
+                      10.0781 10.0781 0 
+                    ]
+                  }
+                }
+              }
+            }
+          }
+          DEF Cross_hair_0004 Transform {
+            scale 0.113125 0.015 1
+            children DEF plane_0044 Transform {
+              children Shape {
+                appearance Appearance {
+                  material Material {
+                  }
+                }
+                geometry IndexedFaceSet {
+                  solid FALSE
+                  normalIndex [
+                    0, 0, 0, 0, -1 
+                  ]
+                  coordIndex [
+                    0, 1, 2, 3, -1 
+                  ]
+                  normal Normal {
+                    vector 0 0 1
+                  }
+                  coord DEF Plane_Square_IFS_Coord_0044 Coordinate {
+                    point [
+                      -10.0781 10.0781 0,
+                      -10.0781 -10.078 0,
+                      10.0781 -10.078 0,
+                      10.0781 10.0781 0 
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+#VRML V2.0 utf8
+# Created with V-Realm Builder v2.0
+# Integrated Data Systems Inc.
+# www.ids-net.com
+
+DEF Background Group {
+  children [
+    DEF TopBack Transform {
+      translation 3 -5.5 -1
+      children Shape {
+        appearance Appearance {
+          texture ImageTexture {
+            url "ALD_Map_Hazzards.jpg" 
+          }
+        }
+        geometry Box {
+          size 20 20 0.1
+        }
+      }
+    }
+    Viewpoint {
+      description "View"
+    }
+  ]
+}
